@@ -7,5 +7,5 @@ node default {
 }
 
 node 'puppet.master' {
-  inlcude role::master_server
+  include role::master_server
 }
